@@ -15,6 +15,19 @@
 		E399EC8A1E495F7400F0600B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E399EC881E495F7400F0600B /* LaunchScreen.storyboard */; };
 		E399EC951E495F7400F0600B /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E399EC941E495F7400F0600B /* ______Tests.m */; };
 		E399ECA01E495F7400F0600B /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E399EC9F1E495F7400F0600B /* ______UITests.m */; };
+		E399ECAF1E49608000F0600B /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E399ECAE1E49608000F0600B /* MyViewController.m */; };
+		E399ECC81E49677D00F0600B /* NSBundle+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = E399ECB31E49677D00F0600B /* NSBundle+HMObjcSugar.m */; };
+		E399ECC91E49677D00F0600B /* NSDate+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = E399ECB51E49677D00F0600B /* NSDate+HMObjcSugar.m */; };
+		E399ECCA1E49677D00F0600B /* NSString+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = E399ECB71E49677D00F0600B /* NSString+HMObjcSugar.m */; };
+		E399ECCB1E49677D00F0600B /* UIButton+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = E399ECB91E49677D00F0600B /* UIButton+HMObjcSugar.m */; };
+		E399ECCC1E49677D00F0600B /* UIColor+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = E399ECBB1E49677D00F0600B /* UIColor+HMObjcSugar.m */; };
+		E399ECCD1E49677D00F0600B /* UIImage+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = E399ECBD1E49677D00F0600B /* UIImage+HMObjcSugar.m */; };
+		E399ECCE1E49677D00F0600B /* UILabel+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = E399ECBF1E49677D00F0600B /* UILabel+HMObjcSugar.m */; };
+		E399ECCF1E49677D00F0600B /* UINavigationController+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = E399ECC11E49677D00F0600B /* UINavigationController+HMObjcSugar.m */; };
+		E399ECD01E49677D00F0600B /* UIScreen+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = E399ECC31E49677D00F0600B /* UIScreen+HMObjcSugar.m */; };
+		E399ECD11E49677D00F0600B /* UITextField+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = E399ECC51E49677D00F0600B /* UITextField+HMObjcSugar.m */; };
+		E399ECD21E49677D00F0600B /* UIView+HMObjcSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = E399ECC71E49677D00F0600B /* UIView+HMObjcSugar.m */; };
+		E3CFE3841E4C3BA2005C65B3 /* TJWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CFE3831E4C3BA2005C65B3 /* TJWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,33 @@
 		E399EC9B1E495F7400F0600B /* 下拉放大效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "下拉放大效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E399EC9F1E495F7400F0600B /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
 		E399ECA11E495F7400F0600B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E399ECAD1E49608000F0600B /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		E399ECAE1E49608000F0600B /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		E399ECB11E49677D00F0600B /* HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMObjcSugar.h; sourceTree = "<group>"; };
+		E399ECB21E49677D00F0600B /* NSBundle+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+HMObjcSugar.h"; sourceTree = "<group>"; };
+		E399ECB31E49677D00F0600B /* NSBundle+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+HMObjcSugar.m"; sourceTree = "<group>"; };
+		E399ECB41E49677D00F0600B /* NSDate+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HMObjcSugar.h"; sourceTree = "<group>"; };
+		E399ECB51E49677D00F0600B /* NSDate+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HMObjcSugar.m"; sourceTree = "<group>"; };
+		E399ECB61E49677D00F0600B /* NSString+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HMObjcSugar.h"; sourceTree = "<group>"; };
+		E399ECB71E49677D00F0600B /* NSString+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HMObjcSugar.m"; sourceTree = "<group>"; };
+		E399ECB81E49677D00F0600B /* UIButton+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+HMObjcSugar.h"; sourceTree = "<group>"; };
+		E399ECB91E49677D00F0600B /* UIButton+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+HMObjcSugar.m"; sourceTree = "<group>"; };
+		E399ECBA1E49677D00F0600B /* UIColor+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HMObjcSugar.h"; sourceTree = "<group>"; };
+		E399ECBB1E49677D00F0600B /* UIColor+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HMObjcSugar.m"; sourceTree = "<group>"; };
+		E399ECBC1E49677D00F0600B /* UIImage+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+HMObjcSugar.h"; sourceTree = "<group>"; };
+		E399ECBD1E49677D00F0600B /* UIImage+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HMObjcSugar.m"; sourceTree = "<group>"; };
+		E399ECBE1E49677D00F0600B /* UILabel+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HMObjcSugar.h"; sourceTree = "<group>"; };
+		E399ECBF1E49677D00F0600B /* UILabel+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HMObjcSugar.m"; sourceTree = "<group>"; };
+		E399ECC01E49677D00F0600B /* UINavigationController+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HMObjcSugar.h"; sourceTree = "<group>"; };
+		E399ECC11E49677D00F0600B /* UINavigationController+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+HMObjcSugar.m"; sourceTree = "<group>"; };
+		E399ECC21E49677D00F0600B /* UIScreen+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+HMObjcSugar.h"; sourceTree = "<group>"; };
+		E399ECC31E49677D00F0600B /* UIScreen+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+HMObjcSugar.m"; sourceTree = "<group>"; };
+		E399ECC41E49677D00F0600B /* UITextField+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HMObjcSugar.h"; sourceTree = "<group>"; };
+		E399ECC51E49677D00F0600B /* UITextField+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HMObjcSugar.m"; sourceTree = "<group>"; };
+		E399ECC61E49677D00F0600B /* UIView+HMObjcSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HMObjcSugar.h"; sourceTree = "<group>"; };
+		E399ECC71E49677D00F0600B /* UIView+HMObjcSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HMObjcSugar.m"; sourceTree = "<group>"; };
+		E3CFE3821E4C3BA2005C65B3 /* TJWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJWaveView.h; sourceTree = "<group>"; };
+		E3CFE3831E4C3BA2005C65B3 /* TJWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +141,15 @@
 		E399EC791E495F7400F0600B /* 下拉放大效果 */ = {
 			isa = PBXGroup;
 			children = (
+				E399ECB01E49677D00F0600B /* ObjcSugar */,
 				E399EC7D1E495F7400F0600B /* AppDelegate.h */,
 				E399EC7E1E495F7400F0600B /* AppDelegate.m */,
 				E399EC801E495F7400F0600B /* ViewController.h */,
 				E399EC811E495F7400F0600B /* ViewController.m */,
+				E399ECAD1E49608000F0600B /* MyViewController.h */,
+				E399ECAE1E49608000F0600B /* MyViewController.m */,
+				E3CFE3821E4C3BA2005C65B3 /* TJWaveView.h */,
+				E3CFE3831E4C3BA2005C65B3 /* TJWaveView.m */,
 				E399EC831E495F7400F0600B /* Main.storyboard */,
 				E399EC861E495F7400F0600B /* Assets.xcassets */,
 				E399EC881E495F7400F0600B /* LaunchScreen.storyboard */,
@@ -138,6 +183,36 @@
 				E399ECA11E495F7400F0600B /* Info.plist */,
 			);
 			path = "下拉放大效果UITests";
+			sourceTree = "<group>";
+		};
+		E399ECB01E49677D00F0600B /* ObjcSugar */ = {
+			isa = PBXGroup;
+			children = (
+				E399ECB11E49677D00F0600B /* HMObjcSugar.h */,
+				E399ECB21E49677D00F0600B /* NSBundle+HMObjcSugar.h */,
+				E399ECB31E49677D00F0600B /* NSBundle+HMObjcSugar.m */,
+				E399ECB41E49677D00F0600B /* NSDate+HMObjcSugar.h */,
+				E399ECB51E49677D00F0600B /* NSDate+HMObjcSugar.m */,
+				E399ECB61E49677D00F0600B /* NSString+HMObjcSugar.h */,
+				E399ECB71E49677D00F0600B /* NSString+HMObjcSugar.m */,
+				E399ECB81E49677D00F0600B /* UIButton+HMObjcSugar.h */,
+				E399ECB91E49677D00F0600B /* UIButton+HMObjcSugar.m */,
+				E399ECBA1E49677D00F0600B /* UIColor+HMObjcSugar.h */,
+				E399ECBB1E49677D00F0600B /* UIColor+HMObjcSugar.m */,
+				E399ECBC1E49677D00F0600B /* UIImage+HMObjcSugar.h */,
+				E399ECBD1E49677D00F0600B /* UIImage+HMObjcSugar.m */,
+				E399ECBE1E49677D00F0600B /* UILabel+HMObjcSugar.h */,
+				E399ECBF1E49677D00F0600B /* UILabel+HMObjcSugar.m */,
+				E399ECC01E49677D00F0600B /* UINavigationController+HMObjcSugar.h */,
+				E399ECC11E49677D00F0600B /* UINavigationController+HMObjcSugar.m */,
+				E399ECC21E49677D00F0600B /* UIScreen+HMObjcSugar.h */,
+				E399ECC31E49677D00F0600B /* UIScreen+HMObjcSugar.m */,
+				E399ECC41E49677D00F0600B /* UITextField+HMObjcSugar.h */,
+				E399ECC51E49677D00F0600B /* UITextField+HMObjcSugar.m */,
+				E399ECC61E49677D00F0600B /* UIView+HMObjcSugar.h */,
+				E399ECC71E49677D00F0600B /* UIView+HMObjcSugar.m */,
+			);
+			path = ObjcSugar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +351,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E399ECCA1E49677D00F0600B /* NSString+HMObjcSugar.m in Sources */,
+				E399ECCC1E49677D00F0600B /* UIColor+HMObjcSugar.m in Sources */,
 				E399EC821E495F7400F0600B /* ViewController.m in Sources */,
+				E3CFE3841E4C3BA2005C65B3 /* TJWaveView.m in Sources */,
+				E399ECD21E49677D00F0600B /* UIView+HMObjcSugar.m in Sources */,
 				E399EC7F1E495F7400F0600B /* AppDelegate.m in Sources */,
+				E399ECCE1E49677D00F0600B /* UILabel+HMObjcSugar.m in Sources */,
+				E399ECD11E49677D00F0600B /* UITextField+HMObjcSugar.m in Sources */,
+				E399ECCB1E49677D00F0600B /* UIButton+HMObjcSugar.m in Sources */,
+				E399ECAF1E49608000F0600B /* MyViewController.m in Sources */,
+				E399ECD01E49677D00F0600B /* UIScreen+HMObjcSugar.m in Sources */,
 				E399EC7C1E495F7400F0600B /* main.m in Sources */,
+				E399ECCD1E49677D00F0600B /* UIImage+HMObjcSugar.m in Sources */,
+				E399ECCF1E49677D00F0600B /* UINavigationController+HMObjcSugar.m in Sources */,
+				E399ECC91E49677D00F0600B /* NSDate+HMObjcSugar.m in Sources */,
+				E399ECC81E49677D00F0600B /* NSBundle+HMObjcSugar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +602,7 @@
 				E399ECA61E495F7400F0600B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E399ECA71E495F7400F0600B /* Build configuration list for PBXNativeTarget "下拉放大效果Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +611,7 @@
 				E399ECA91E495F7400F0600B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E399ECAA1E495F7400F0600B /* Build configuration list for PBXNativeTarget "下拉放大效果UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +620,7 @@
 				E399ECAC1E495F7400F0600B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

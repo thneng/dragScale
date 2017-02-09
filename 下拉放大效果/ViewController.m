@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "MyViewController.h"
 @interface ViewController ()
 
 @end
@@ -16,14 +16,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillAppear:(BOOL)animated{
+    
+    [super viewWillAppear:animated];
+//    [self.navigationController setNavigationBarHidden:NO]; // 右滑返回时,导航栏过早显示,没有动画
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
 }
+
+- (IBAction)pushMyVC:(id)sender {
+    
+    MyViewController *vc = [[MyViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 
 
 @end

@@ -10,4 +10,28 @@
 
 @interface TJWaveView : UIView
 
+/**
+ *  波浪的颜色
+ */
+@property (nonatomic, strong) UIColor *fistWaveFillColor;
+
+/**
+ *  波浪的颜色
+ */
+@property (nonatomic, strong) UIColor *secondWaveFillColor;
+
+/**
+ *  波浪的速度
+ */
+@property (nonatomic, assign) CGFloat speed;
+
+/**
+ *  波浪持续时间
+ */
+@property (nonatomic, assign) CGFloat duration;
+
+- (void)starWave;
+
+- (void)stopWave;
+
 @end
